@@ -4,11 +4,10 @@ This repository contains my early web development projects and HTML/CSS practice
 
 ###  Projects Included
 - **Supra Project:** A web page focused on car aesthetics and layout design (see `supra.html`).
-- **Basic Structures:** Practice files for HTML tags and CSS styling.
+- **Basic Structures:** Practice files for HTML tags.
 
 ###  Technologies Used
 - **HTML5:** For semantic web structure.
-- **CSS3:** For styling and responsiveness.
 - **Git:** For version control and deployment.
 
 ###  How to View
