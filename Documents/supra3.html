@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Services Login</title>
+</head>
+<body>
+
+    <h3>Novel Services Login</h3>
+
+    <form action="/submit-your-login" method="POST">
+        Username: <input type="text" name="username" required>
+        <br><br>
+
+        Password: <input type="password" name="password" required>
+        <br><br>
+
+        City of Employment: <input type="text" name="city">
+        <br><br>
+
+        Web Server:
+        <select name="server">
+            <option value="">-choose a server-</option>
+            <option value="server1">Server 1</option>
+            <option value="server2">Server 2</option>
+        </select>
+        <br><br>
+
+        Please specify your role:<br>
+        <input type="radio" name="role" value="admin" id="admin"> <label for="admin">Admin</label><br>
+        <input type="radio" name="role" value="engineer" id="engineer"> <label for="engineer">Engineer</label><br>
+        <input type="radio" name="role" value="manager" id="manager"> <label for="manager">Manager</label><br>
+        <input type="radio" name="role" value="guest" id="guest"> <label for="guest">Guest</label>
+        <br><br>
+
+        Single Sign-on to the following:<br>
+        <input type="checkbox" name="sso" value="mail" id="mail"> <label for="mail">Mail</label><br>
+        <input type="checkbox" name="sso" value="payroll" id="payroll"> <label for="payroll">Payroll</label><br>
+        <input type="checkbox" name="sso" value="self-service" id="self-service"> <label for="self-service">Self-service</label>
+        <br><br>
+
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>

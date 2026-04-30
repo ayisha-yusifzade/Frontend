@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #2F1893;
+    color: white;
+    min-height: 100vh;
+    padding: 0 10%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-links {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+.btn-purchase {
+    background-color: #E93A7D;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 40px;
+    max-width: 450px;
+}
+
+.btn-learn {
+    background-color: #E93A7D;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign-up-card {
+    background: white;
+    color: #151439;
+    padding: 50px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.sign-up-card h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #EBEAED;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.btn-signin {
+    width: 100%;
+    padding: 15px;
+    background-color: #482BE7;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.divider {
+    position: relative;
+    margin: 20px 0;
+    border-bottom: 1px solid #EBEAED;
+}
+
+.divider span {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 10px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.btn-twitter {
+    width: 100%;
+    padding: 15px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-text {
+    margin-top: 25px;
+    font-size: 14px;
+    color: rgba(21, 20, 57, 0.4);
+}
+
+.footer-text a {
+    color: #25DAC5;
+    text-decoration: none;
+    font-weight: bold;
+}

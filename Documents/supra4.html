@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details Form</title>
+</head>
+<body>
+
+    <form action="/submit-data" method="POST">
+        <fieldset>
+            <legend>Employee Details</legend>
+            <br>
+            
+            First name: <input type="text" name="firstname" required>
+            <br><br>
+
+            Last name: <input type="text" name="lastname" required>
+            <br><br>
+
+            Gender: 
+            <input type="radio" name="gender" value="male" id="male"> 
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female"> 
+            <label for="female">Female</label>
+            <br><br>
+
+            Employee ID: <input type="text" name="emp_id">
+            <br><br>
+
+            Designation: <input type="text" name="designation">
+            <br><br>
+
+            Phone Number: <input type="tel" name="phone">
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+</body>
+</html>
