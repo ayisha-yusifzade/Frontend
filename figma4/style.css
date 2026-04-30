@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 0;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 50px;
+    margin-bottom: 100px;
+    border-radius: 0;
+}
+
+.hero-content {
+    max-width: 60%;
+}
+
+.hero-content h1 {
+    font-size: 44px;
+    color: #2e1a68;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+.hero-content p {
+    font-size: 14px;
+    color: #b1b1b1;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    max-width: 450px;
+}
+
+.btn-discount {
+    background-color: #34e7e4;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 40px;
+    border-bottom-right-radius: 0;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.products {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.product-card {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+
+.product-card img {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-info h3 {
+    font-size: 13px;
+    color: #2e1a68;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product-info p {
+    font-size: 12px;
+    color: #b1b1b1;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    max-width: 160px;
+}
+
+.price {
+    background-color: #f5f6fa;
+    color: #2e1a68;
+    padding: 6px 22px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    border: 1px solid #eee;
+}
